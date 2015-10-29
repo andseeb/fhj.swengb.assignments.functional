@@ -19,7 +19,7 @@ case class FunctionalAssignment(lowerBound: Int = 1,
     * xs(i) + factor == xs(i + 1) (for i > 0 and i <= 1000)
     *
     */
-  val xs: Seq[Int] = lowerBound until upperBound+1
+  val xs: Seq[Int] = lowerBound to upperBound by factor-1
 
   /**
     * provide the sum of all elements defined in xs
