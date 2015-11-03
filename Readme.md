@@ -2,9 +2,13 @@
 
 This is the first assignment for SWENGB 2015.
 
+
 ## Step 0
 
 You have to fork this repository, like you did with the TutorialAssignment.
+
+Please also update your "master" pom (located in c:/workspace) which
+is available [here](https://gist.githubusercontent.com/rladstaetter/82bdb5809e7e3e2aa506/raw/7d2245fe506f41c36a91eb863856b2646961c29a/pom.xml)
 
 ## Step 1
 
@@ -25,5 +29,14 @@ corresponding test will be successful.
 It is highly recommended to implement your own tests however. For
 this you can either add testfunctions in the FunctionalAssignmentTest
 file, or write a new Testfile and run your tests there.
+
+## Attention:
+
+If you have questions about the assignment you can either contact
+me directly by mail or you could post a question by using the
+github "issues" feature of this repository.
+
+[Link for functional assignment issues](https://github.com/rladstaetter/fhj.swengb.assignments.functional/issues)
+
 
 Have fun!
