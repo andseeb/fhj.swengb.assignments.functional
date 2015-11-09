@@ -9,22 +9,14 @@ import scala.language.postfixOps
 class FunctionalAssignmentTest {
 
   val lowerBound = 1
-  val upperBound = 10000
+  val upperBound = 30
   val factor = 3
 
   val assignment0 = FunctionalAssignment(lowerBound, upperBound, factor)
 
 
-  /**
-    * helper function to display the value xs
-    */
-
-  def display(assignment : FunctionalAssignment) : Unit = {
-    println(assignment.xs.mkString("[",",","]"))
-  }
-
-  @Test def showXs(): Unit = {
-    display(assignment0)
+  @Test def checkXsContent(): Unit = {
+    assertEquals(assignment0.xs.mkString(","), "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30")
   }
 
 
